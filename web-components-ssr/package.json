@@ -1,0 +1,21 @@
+{
+  "name": "ServerComponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup public/index.js -o public/bundle.js",
+    "start": "npm run build && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "server-components": "^0.2.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.4"
+  }
+}
