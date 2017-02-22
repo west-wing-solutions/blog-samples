@@ -1,7 +1,7 @@
 # WebComponentsSSR
 Experiments in the realm of SSR for Web Components
 
-## Idea
-I am trying to create a thin layer of abstraction that will allow to render Web Components on the server. Specifically, it relies on [server-components](https://github.com/pimterry/server-components) while trying to remove the need of authoring the Web Components twice. 
+It's related to [this blog post](https://medium.com/west-wing-solutions/web-components-depend-on-js-to-bootstrap-what-about-the-first-paint-f9642ce3f509)
 
-Basic goal: write components once, render both on the client and on the server
+## Basic goal
+Write components once, render both on the client and on the server, by means of [server-components](https://github.com/pimterry/server-components)
